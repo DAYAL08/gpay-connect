@@ -206,7 +206,8 @@ const store = {
 };
 
 /* Persist to disk so restarts don't wipe accounts, PINs or history. */
-const DATA_FILE = path.join(__dirname, 'data.json');
+const DATA_FILE =
+  process.env.DATA_FILE || path.join(__dirname, 'data.json');
 
 function saveStore() {
   try {

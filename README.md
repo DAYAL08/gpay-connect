@@ -1,3 +1,7 @@
+[![CI](https://github.com/DAYAL08/gpay-connect/actions/workflows/ci.yml/badge.svg)](https://github.com/DAYAL08/gpay-connect/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Expo](https://img.shields.io/badge/Expo-SDK%2051-blue.svg)](https://expo.dev)
+
 # GPay Connect
 
 A GPay-style mobile payment app with a **Stripe Connect**-flavored API, running entirely in **sandbox/mock mode** — no API keys, no real money.
