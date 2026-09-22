@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "GPay Connect",
+    "slug": "gpay-connect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1a73e8"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.gpayconnect.app"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

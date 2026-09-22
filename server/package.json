@@ -1,0 +1,13 @@
+{
+  "name": "gpay-connect-server",
+  "version": "1.0.0",
+  "description": "Stripe Connect-style mock/sandbox API for the GPay Connect app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "private": true
+}
